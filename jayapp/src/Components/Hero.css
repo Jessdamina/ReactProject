@@ -3,7 +3,7 @@
     height:100vh;
     max-width: 100%;
     position: relative;
-    /* background-color: blueviolet; */
+    background-color: #313131;
 }
 
 .hero-content{
@@ -14,9 +14,6 @@
     display: grid;
     grid-template-columns: auto 1fr;
     column-gap: 15%;
-    /* justify-content: center; */
-    /* align-items: center; */
-    /* background-color: blueviolet; */
 }
 
 .herogradientblue{
@@ -33,8 +30,8 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 40%;
-    height: 100%;
+    width: 35%;
+    height: 180%;
     z-index: 1;
 }
 
@@ -74,10 +71,10 @@
 .hero-button{
     background-color: blueviolet;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 10px 15px;
     margin-top: 4%;
     cursor: pointer;

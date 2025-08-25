@@ -1,7 +1,9 @@
 import react from 'react'
+import Button from './Components/Button.jsx'
 import Header from './Components/Header.jsx'
 import Hero from './Components/Hero.jsx'
 import Hero2 from './Components/Hero2.jsx'
+import Workprocess from './Components/Workprocess.jsx'
 // import Footer from './Components/Footer.jsx'
 
 
@@ -12,7 +14,7 @@ function App() {
       <Header />
       <Hero />
       <Hero2 />
-      {/* <Footer /> */}
+      <Workprocess />
     </div>
   )
 }

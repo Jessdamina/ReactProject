@@ -1,0 +1,107 @@
+.hero-container{
+    width: 100%;
+    height:100vh;
+    max-width: 100%;
+    position: relative;
+    /* background-color: blueviolet; */
+}
+
+.hero-content{
+    width:100%;
+    max-width: 1024px;
+    margin:0 auto;
+    padding: 3% 0%;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 15%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: blueviolet; */
+}
+
+.herogradientblue{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(180deg, rgba(0, 0, 255, 0.5) 0%, rgba(0, 0, 255, 0) 100%); */
+    z-index: 1;
+}
+
+.herogradientpurple{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40%;
+    height: 100%;
+    z-index: 1;
+}
+
+.herogradientyellow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero-image{
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.hero-text{
+    align-content: center;
+    margin-top: 10%;
+}
+
+.hero-text h1{
+    font-size: 3.5rem;
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+}
+
+.hero-text p{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-button{
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 4%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-stats{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+.hero-stats div{
+    text-align: center;    
+}
+
+.hero-stats h3{
+    margin: 0;
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+.hero-stats p{
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+}

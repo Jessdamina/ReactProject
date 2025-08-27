@@ -17,7 +17,9 @@ function Hero() {
                     <p>Your journey to excellence starts here. I am a dedicated and passionate</p>
                     <p>web developer with over 5 years of excellent experience in creating</p> 
                     <p>stunning and functional websites. Let's build something amazing together.</p>
-                    <Button buttonTitle={"Say Hello"} color={"blueviolet"} />
+                    <div className='hero-button-container'>
+                        <Button buttonTitle={"Say Hello"} color={"blueviolet"} />
+                    </div>
                     <div className='hero-stats'>
                         <div className='hero-stat'>
                             <h3>5Y</h3>
